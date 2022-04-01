@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import {View, StyleSheet, Text, Alert, FlatList, Button, Pressable} from 'react-native'
 
-// aa
-
 function OrderScreen(props) {
     const menu = [
         {id: '0', name: 'Pizza', price: '8.00'},
